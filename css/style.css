@@ -1,0 +1,126 @@
+ 
+  
+
+
+
+body{
+    background-color:  #f7ecde;;
+}
+
+h1{
+    font-family: 'Pacifico';
+    padding: 10px;
+    position: relative;
+    margin: 50px;
+    font-size: 65px;
+
+
+}
+  h1::after{
+    content: '';
+    position:absolute;
+    background-color:rgba(255, 193, 7, 0.7);
+    bottom: 5px;
+    left: 34%;
+    right: 44%;
+    width: 33%;
+    height: 28%;
+    transition :0.5s ;
+
+
+}
+h1:hover::after{
+    height: 60%;
+} 
+
+  h2{
+    
+    text-align: center;
+    
+    display: inline-block;
+    color: rgb(110, 128, 24);
+     
+}
+span{
+    color:rgb(140, 160, 38)
+}
+.right{
+ 
+    display: inline-block;
+    color: #9eb23b;
+}  
+.left{
+    margin-left: 30%;
+    display: inline-block;
+    color: #6e8018;
+}
+.wing{
+    font-size:30px;
+}
+ 
+
+
+.btn {
+    background-color:#d1512d;
+    color: white;
+    border:   solid;
+    border: none;
+    border-radius:5px ;
+    width: 13%;
+    height: 40px;
+    margin-left:  45%;
+    margin-top : 15px ;
+    margin-bottom : 15px ;
+
+
+
+}
+.btn:hover{
+    background-color:#bb4120;
+    color: white;
+}
+
+
+.btn-visit{
+    background-color:#9eb23b;
+    width: 30%;
+    height: 10%;
+    border:1px solid ;
+    border:none;
+    padding:10px;
+    transition: 0.5 all;
+    border-radius:8px;
+    color: white;
+   
+}
+
+.btn-visit:hover{
+    background-color:#6e8018;;
+
+}
+
+
+.btn-delete{
+    background-color:#eb1d36;;
+    border:1px solid ;
+    border:none;
+    padding:10px;
+    transition: 0.5 all;
+    border-radius:5px;
+    color: white;
+   
+}
+
+.btn-delete:hover{
+    background-color:#d30820;;
+
+}
+ 
+label{
+    font-weight: bolder;
+    padding-left:2PX ;
+}
+input{
+    margin-top: 5px;
+}
+ 

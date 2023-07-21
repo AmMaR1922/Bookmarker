@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title> Bookmark </title>
+</head>
+
+<body> 
+    <div class="w-75 m-auto my-5" >
+        <h1 class="  text-center"> Bookmarker</h1>
+        <br>.............................................................................................................................................................................................................................................................................................................................................................
+         
+       <div class="clas">
+        <i class="fa fa-bookmark wing left" aria-hidden="true"></i>
+        <h2>Bookmark your <span>favorite sites</span></h2>
+        <i class="fa fa-bookmark wing right" aria-hidden="true"></i>
+       </div>
+      
+    
+      
+       
+        <i class="fa-solid fa-book-bookmark"></i>
+        <label for="name fw-bold" > Site Name</label>
+        <input type="text" id="name" placeholder="Bookmark Name"  class="form-control mb-3">  
+        <i class="fa-solid fa-link"></i>
+        <label for="url " > Site Url</label>
+        <input type="text" placeholder="Website Url" id="url" onkeydown=" urlvalidate()"  class="form-control mb-3">
+        <button  class="btn text-center"  onclick="addurl() ,Reset()">Submit</button>
+        <br>.............................................................................................................................................................................................................................................................................................................................................................
+    
+    </div>
+
+<div class="w-75 m-auto text-center ">
+        <table class="table ">
+            <thead >
+            
+                    <th>index</th>
+                    <th>Website name</th>
+                    <th>visit</th> 
+                    <th>delete</th>
+             
+            </thead>
+            <tbody id="tableBody" >  
+                
+              
+            </tbody>
+        </table>
+    </div>
+    
+    
+    
+
+
+
+    <script src="./js/script.js"></script>
+   
+</body>
+
+</html>
